@@ -40,8 +40,10 @@ def swap_bookends(items):
 ```
 The function ```swap_bookends(items)``` utilizes the given extended sequence unpacking to allocate each elements present to a specific position in its list regardless of how long it is in order to satisfy the objective. The function has ```first, *middle, last = items``` will allocate the first element as the first one, in contrast, the last elements will be in last. The elements left will be allocated within the middle with ```*middle```. Lastly, the ``` return  [last, *middle, first]``` will return the list in a pattern in such a way that the last is followed by the original sequence of the middle and last is the first element of the list when the code is executed.
 
+Python program for PA1 (https://github.com/isaacbean07/ECE2112-PA-1/blob/main/PA-1_ISAAC%20BENEDICT%20R.%20DEANGKINAY_2ECE-D.ipynb)
+
+Thank you and God bless!
+
 ## README FILE VERSION HISTORY
-*
-*
-* August 2
-Thank you and Godbless
+* August 27, 2026: Added descriptions of the functions in all three problems
+* August 25, 2026: Creation of the repository together with the readme file
